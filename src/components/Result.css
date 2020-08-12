@@ -1,0 +1,71 @@
+* {
+    font-family: 'Comfortaa', cursive;
+    color: whitesmoke;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    padding: 5x;
+}
+
+svg {
+    margin: 4px;
+}
+
+.temp {
+    font-size: 60px;
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    .content {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .temp {
+        font-size: 80px;
+    }
+
+    .content div {
+        padding: 5px;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+    .content {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .temp {
+        font-size: 140px;
+    }
+
+    .content div {
+        padding: 10px;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    .content {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .temp {
+        font-size: 70px;
+    }
+
+    .content div {
+        padding: 0px;
+    }
+}
