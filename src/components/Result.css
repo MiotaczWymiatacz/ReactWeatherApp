@@ -25,6 +25,11 @@ svg {
     font-size: 60px;
 }
 
+div.result {
+    text-align: center;
+    font-size: 26px;
+}
+
 @media (orientation: portrait) and (min-width: 360px) {
     .content {
         font-size: 30px;
