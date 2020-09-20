@@ -19,7 +19,6 @@ const Result = (props) => {
     const sunriseTime = new Date(sunrise * 1000).toLocaleTimeString();
     const sunsetTime = new Date(sunset * 1000).toLocaleTimeString();
     const tempFloor = Math.round(temp);
-    console.log(tempFloor);
     content = (
       <div className="content">
         <div>
